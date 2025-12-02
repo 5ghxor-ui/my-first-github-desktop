@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>혼 들리는 오타쿠의 밤</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- VHS 스캔라인 오버레이 -->
+    <div class="scanlines"></div>
+    <div class="vhs-noise"></div>
+
+    <!-- 네비게이션 -->
+    <nav class="retro-nav">
+        <div class="nav-container">
+            <div class="logo glitch" data-text="オタク">オタク</div>
+            <ul class="nav-links">
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#anime">アニメ</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#about">について</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="main-title glitch" data-text="혼 들리는 오타쿠의 밤">
+                혼 들리는 오타쿠의 밤
+            </h1>
+            <p class="subtitle">
+                <span class="typing">1990년대 애니메이션의 황금기로 돌아가는 시간여행...</span>
+            </p>
+            <div class="crt-badge">
+                <span>REC</span>
+                <span class="rec-dot"></span>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="floating-kanji">夜</div>
+            <div class="floating-kanji delay-1">魂</div>
+            <div class="floating-kanji delay-2">夢</div>
+        </div>
+    </header>
+
+    <!-- 애니메이션 소개 섹션 -->
+    <section id="anime" class="anime-section">
+        <h2 class="section-title">
+            <span class="jp-text">伝説のアニメ</span>
+            <span class="kr-text">전설의 애니메이션</span>
+        </h2>
+        
+        <div class="anime-grid">
+            <article class="anime-card">
+                <div class="card-image">
+                    <div class="placeholder-art cyberpunk"></div>
+                    <div class="card-overlay">
+                        <span class="year">1995</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>공각기동대</h3>
+                    <p>攻殻機動隊</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="anime-card">
+                <div class="card-image">
+                    <div class="placeholder-art eva"></div>
+                    <div class="card-overlay">
+                        <span class="year">1995</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>신세기 에반게리온</h3>
+                    <p>新世紀エヴァンゲリオン</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="anime-card">
+                <div class="card-image">
+                    <div class="placeholder-art bebop"></div>
+                    <div class="card-overlay">
+                        <span class="year">1998</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>카우보이 비밥</h3>
+                    <p>カウボーイビバップ</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="anime-card">
+                <div class="card-image">
+                    <div class="placeholder-art akira"></div>
+                    <div class="card-overlay">
+                        <span class="year">1988</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>아키라</h3>
+                    <p>アキラ</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 갤러리 섹션 -->
+    <section id="gallery" class="gallery-section">
+        <h2 class="section-title">
+            <span class="jp-text">思い出のギャラリー</span>
+            <span class="kr-text">추억의 갤러리</span>
+        </h2>
+        
+        <div class="vhs-player">
+            <div class="vhs-screen">
+                <div class="vhs-content">
+                    <div class="tv-static"></div>
+                    <div class="channel-info">
+                        <span class="channel">CH-03</span>
+                        <span class="time">23:59</span>
+                    </div>
+                    <p class="vhs-text">▶ PLAY</p>
+                    <p class="vhs-message">90년대의 밤, VHS 테이프를 넣고<br>애니메이션을 보던 그 시절...</p>
+                </div>
+            </div>
+            <div class="vhs-controls">
+                <button class="vhs-btn">⏮</button>
+                <button class="vhs-btn">⏪</button>
+                <button class="vhs-btn play-btn">▶</button>
+                <button class="vhs-btn">⏩</button>
+                <button class="vhs-btn">⏭</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 소개 섹션 -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2 class="section-title">
+                    <span class="jp-text">このサイトについて</span>
+                    <span class="kr-text">사이트 소개</span>
+                </h2>
+                <p>
+                    이 웹사이트는 90년대 애니메이션의 황금기를 기념하기 위해 만들어졌습니다.
+                    그 시절, 우리는 브라운관 TV 앞에 앉아 VHS 테이프가 돌아가는 소리를 들으며
+                    새로운 세계로의 여행을 떠났습니다.
+                </p>
+                <p>
+                    사이버펑크의 네온 불빛, 거대 로봇의 장엄한 전투, 
+                    그리고 잊을 수 없는 OST들... 그 모든 추억을 이곳에서 다시 만나보세요.
+                </p>
+                <div class="retro-stats">
+                    <div class="stat">
+                        <span class="stat-number">1990</span>
+                        <span class="stat-label">시작의 해</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">추억</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">오타쿠 라이프</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-art">
+                <div class="pixel-art-frame">
+                    <div class="pixel-character"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="retro-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="glitch" data-text="オタクの夜">オタクの夜</span>
+            </div>
+            <p class="copyright">
+                © 1999 혼 들리는 오타쿠의 밤 | All Rights Reserved
+            </p>
+            <div class="visitor-counter">
+                <span>訪問者: </span>
+                <span class="counter-display">000,428</span>
+            </div>
+            <p class="footer-message blink">
+                ★ 이 사이트는 800x600 해상도에 최적화되어 있습니다 ★
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // 간단한 타이핑 효과
+        document.addEventListener('DOMContentLoaded', () => {
+            // 글리치 효과 랜덤 트리거
+            setInterval(() => {
+                document.querySelectorAll('.glitch').forEach(el => {
+                    if (Math.random() > 0.95) {
+                        el.classList.add('glitching');
+                        setTimeout(() => el.classList.remove('glitching'), 200);
+                    }
+                });
+            }, 100);
+        });
+    </script>
+</body>
+</html>
